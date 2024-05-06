@@ -1,0 +1,6 @@
+#KERNEL
+app-arch/unrar unRAR
+sys-kernel/linux-firmware @BINARY-REDISTRIBUTABLE
+
+#NVIDIA
+x11-drivers/nvidia-drivers NVIDIA-r2

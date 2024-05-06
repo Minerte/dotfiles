@@ -1,0 +1,4 @@
+#KERNEL
+# Note you need to have GRUB_PLATFORMS="efi-64" 
+# in your's make.conf or grub will install incorrectly
+sys-kernel/installkernel dracut grub
