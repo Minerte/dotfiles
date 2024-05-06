@@ -246,7 +246,7 @@ myLogHook = return ()
 myStartupHook = do
 	spawnOnce "picom --experimental-backend"
 	spawnOnce "polybar middle"
-	spawnOnce "feh --bg-fill /home/$(user)/Downloads/wallie.png"
+	spawnOnce "feh --bg-fill /path/to/image"
 ------------------------------------------------------------------------
 -- Now run xmonad with all the defaults we set up.
 
