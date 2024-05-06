@@ -1,0 +1,31 @@
+# FOR PORTAGE
+emerge --ask app-eselect/eselect-repository app-admin/eclean-kernel app-admin/sudo dev-vcs/git
+# FOR X-server
+emerge --ask x11-base/xorg-server x11-drivers/nvidia-drivers x11-terms/xterm x11-misc/xdg-user-dirs
+
+# FOR XMONAD
+emerge --ask x11-wm/xmonad xmonad-contrib
+
+# FOR WINDOW MANAGER TOOLS
+emerge --ask x11-apps/setxkbmap x11-misc/numlockx picom rofi 
+# GOOD TO HAVE WINDOW MANAGER TOOLS
+emerge --ask media-gfx/flameshot feh
+# FOR SOUND AND LITE GRAPHIC USE
+emerge --ask media-video/pipewire media-sound/pavucontrol virtual/opengl
+# FOR FLATPAK
+emerge --ask sys-apps/flatpak
+
+# FOR TERMINAL
+emerge --ask x11-terms/alacritty app-misc/tmux app-shells/starship app-shells/zoxide app-editor/neovim sys-process/htop sys-apps/ripgrep
+# IF WANTED "TERMINAL"
+emerge --ask app-shells/fzf app-text/tree app-misc/neofetch
+
+# FOR VULKAN DEV
+emerge --ask media-libs/vulkan-layers media-libs/vulkan-loader dev-util/vulkan-tools media-libs/glfw glew glm
+
+# FOR STEAM
+games-util/game-device-udev-rules
+
+# IF NEEDED
+# XBOX CONTROLLER
+games-util/xpadneo
